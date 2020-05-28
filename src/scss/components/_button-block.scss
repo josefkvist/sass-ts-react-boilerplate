@@ -1,0 +1,24 @@
+.c-button-block {
+
+    display:flex;
+    align-items:center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+    a {
+      background: $primary;
+      border-radius: 45px;
+      color: $white;
+      height: 40px;
+      padding: .5rem 2rem;
+      margin:0 auto;
+      display: inline-block;
+      transition: all .25s;
+  
+      &:hover, &:focus {
+        background: $primary-light;
+      }
+     
+    }
+  }
+  
